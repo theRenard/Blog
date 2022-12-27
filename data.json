@@ -1,10 +1,10 @@
 [
   {
-    "Author": "Nemo",
-    "Updated": "2022-06-01T00:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1664575198263-269a022d6e14?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "Author": "Daniele",
+    "Updated": "2022-21-16T00:00:00.000Z",
+    "image": "articles/five-ways-to-move-in-cocos-creator/images/preview.png",
     "title": "Si pace ad caput",
-    "path": "articles/article1.html",
+    "path": "articles/five-ways-to-move-in-cocos-creator/index.html",
     "excerpt": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
   },
   {
