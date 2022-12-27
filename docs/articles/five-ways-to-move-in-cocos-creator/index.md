@@ -1,6 +1,14 @@
 ---
+title: Cocos Creator
+titleTemplate: Cinque modi di muovere un elemento
+description: Cinque modi di muovere un elemento in Cocos Creator
 Author: Daniele Tabanella
+head:
+  - - meta
+    - name: keywords
+      content: cocos creator
 Updated: 2022-12-16
+lastUpdated: false
 image: /images/preview.png
 prev: 'Get Started | Markdown'
 
