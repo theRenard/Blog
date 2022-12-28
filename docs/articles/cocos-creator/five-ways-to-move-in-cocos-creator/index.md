@@ -9,14 +9,14 @@ head:
       content: cocos creator
 Updated: 2022-12-16
 lastUpdated: false
-image: /images/preview.png
+image: /images/5-ways-to-move.png
 prev: 'Get Started | Markdown'
 
 ---
 
-# Cinque modi di muovere un elemento in Cocos Creator
+![5 ways to move in cocos creator](./images/5-ways-to-move.png)
 
-![image](./images/move.gif)
+# Cinque modi di muovere un elemento in Cocos Creator
 
 Una delle prime cose che avrete voglia di fare per il vostro gioco è probabilmente di muovere uno sprite, un oggetto da un punto A ad un punto B. Esistono vari modi di muovere un elemento in Cocos Creator, alcuni agiscono sul `ridigBody` e gli altri sulla posizione del `Node`, vediamoli insieme:
 
@@ -56,6 +56,9 @@ Simile alla posizione ma
 ```ts
     this.rigidBody.linearVelocity = new Vec2(velocity.x - ammount, velocity.y);
 ```
+
+![image](./images/move.gif)
+
 
 ## Fronde vestras pomi
 

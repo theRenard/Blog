@@ -1,12 +1,30 @@
- <script setup>
-  import Hero from './components/Hero.vue'
-  import ArticleCard from './components/ArticleCard.vue'
+---
+layout: home
 
-  import data from '../data.json' 
-</script>
+hero:
+  name: Shall we play a game?
+  # text: Vite & Vue powered static site generator.
+  tagline: Lorem ipsum...
+  # image:
+  #   src: /logo.png
+  #   alt: VitePress
+  # actions:
+  #   - theme: brand
+  #     text: Get Started
+  #     link: /guide/what-is-vitepress
+  #   - theme: alt
+  #     text: View on GitHub
+  #     link: https://github.com/vuejs/vitepress
 
-<Hero name="Daniele" subtitle="Welcome to my blog. I'll write about Cocos Engine, mostly things I'm discovering" />
+features:
+  - icon: ⚡️
+    title: Vite, The DX that can't be beat
+    details: Lorem ipsum...
+  - icon: 🖖
+    title: Power of Vue meets Markdown
+    details: Lorem ipsum...
+  - icon: 🛠️
+    title: Simple and minimal, always
+    details: Lorem ipsum...
 
-<div v-for="(article, index) in data" :key="index">
-  <ArticleCard :title="article.title" :excerpt="article.excerpt" :image="article.image" :author="article.Author" :href="article.path" :date="article.Updated" />
-</div>
+---

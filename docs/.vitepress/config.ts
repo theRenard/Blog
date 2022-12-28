@@ -11,7 +11,13 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Blog', link: '/articles/' },
+      { text: 'Articles', items: [
+        { text: 'Cocos Creator', items: [
+          { text: '5 ways to move in CC', link: '/articles/cocos-creator/five-ways-to-move-in-cocos-creator/' },
+        ]
+        },
+        // { text: 'Articles 2', link: '/articles/2' },
+      ] },
     ],
     footer: {
       // message: 'Released under the MIT License.',
@@ -23,7 +29,8 @@ export default defineConfig({
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/theRenard' },
-      { icon: 'mastodon', link: 'https://mastodon.social/@monsieurLeRenard' }
+      // { icon: 'mastodon', link: 'https://mastodon.social/@monsieurLeRenard' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/danieletabanella/' }
     ],
   },
   head: [
