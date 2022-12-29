@@ -34,7 +34,7 @@ export default defineConfig({
     ],
   },
   head: [
-    ['meta', { name: 'theme-color', content: '#3c8772' }],
+    ['meta', { name: 'theme-color', content: '#d648d5' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }]
   ]
 });
