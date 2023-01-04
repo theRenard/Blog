@@ -16,13 +16,13 @@ prev: 'Get Started | Markdown'
 
 ![5 ways to move in cocos creator](./images/5-ways-to-move.png)
 
-# Cinque modi di muovere un elemento in Cocos Creator
+# Five ways to move an element in Cocos Creator
 
-Una delle prime cose che avrete voglia di fare per il vostro gioco è probabilmente di muovere uno sprite, un oggetto da un punto A ad un punto B. Esistono vari modi di muovere un elemento in Cocos Creator, alcuni agiscono sul `ridigBody` e gli altri sulla posizione del `Node`, vediamoli insieme:
+One of the first things you'll want to do for your game is probably to move a sprite, an object, from point A to point B. There are various ways to move an element in Cocos Creator, some affect the `ridigBody` and the others on the position of the `Node`, let's see them together:
 
-## 1. Posizione
+## 1. Position
 
-Modificare la posizione di un elemento è probabilmente la prima soluzione, basta assegnare una nuova posizione al `Node`.
+Changing the position of an element is probably the first solution, just assign a new position to the `Node`.
 
 ```ts
     const ammount = 10;
@@ -30,28 +30,30 @@ Modificare la posizione di un elemento è probabilmente la prima soluzione, bast
     this.node.setPosition(new Vec3(position.x + ammount, position.y)); 
 ```
 
-## 2. Translazione
+## 2. Translation
 
-Simile alla posizione ma
+Similar to position, but it's relative to the world position of the `Node`.
 
 ```ts
     this.node.translate(new Vec3(ammount, 0), this.worldPosition);
 ```
 
-## 3. Impulso
+## 3. Impulse
+
+
 
 ```ts
     this.rigidBody.applyLinearImpulseToCenter(new Vec2(ammount, 0), true);
 
 ```
 
-## 4. Forza
+## 4. Force
 
 ```ts
     this.rigidBody.applyForceToCenter(new Vec2(ammount, 0), true);
 ```
 
-## 5. Velocità
+## 5. Velocity
 
 ```ts
     this.rigidBody.linearVelocity = new Vec2(velocity.x - ammount, velocity.y);

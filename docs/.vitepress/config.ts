@@ -29,7 +29,7 @@ export default defineConfig({
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/theRenard' },
-      // { icon: 'mastodon', link: 'https://mastodon.social/@monsieurLeRenard' },
+      { icon: 'mastodon', link: 'https://mastodon.social/@monsieurLeRenard' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/danieletabanella/' }
     ],
   },
