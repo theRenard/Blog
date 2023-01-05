@@ -10,7 +10,6 @@ head:
 Updated: 2022-12-16
 lastUpdated: false
 image: /images/5-ways-to-move.png
-prev: 'Get Started | Markdown'
 
 ---
 
