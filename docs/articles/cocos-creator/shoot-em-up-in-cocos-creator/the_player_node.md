@@ -21,7 +21,7 @@ image: /images/shoot-em-up.png
 
 ## The `Player` Children Nodes
 
-The Player has 2 children nodes, the `Engine`, which is a particle system, and the `Ship` which is a sprite. I've found that in many tutorials the player is a sprite, but I think it's better to use a sprite as a child of a node, so you can add other components to the player node. 
+The Player has 2 children nodes, the `Engine`, which is a particle system, and the `Ship` which is a sprite. I've found that in many tutorials the player node contains the sprite component, but I think it's better to use a sprite as a child of a node, so you can add other components (sprite or particles) to the player node. 
 
 ```
 Player
@@ -53,7 +53,7 @@ Player
 
 ## The `Player.ts` script
 
-The [`Player.ts`](https://github.com/theRenard/cocos-creator-laser-defender/blob/master/assets/Scripts/Player.ts) script handles the player position, it respect the boundaries of the parent node with the `math.clamp` utility. the `move` method is called in the `update` method and it take into account both `deltatime` ([why?](https://drewcampbell92.medium.com/understanding-delta-time-b53bf4781a03)) and `movespeed` variables.
+The [`Player.ts`](https://github.com/theRenard/cocos-creator-laser-defender/blob/master/assets/Scripts/Player.ts) script handles the player position, it respect the boundaries of the parent node with the `math.clamp` utility. the `move` method is called in the `update` method and it take into account both `deltatime` ([why?](https://drewcampbell92.medium.com/understanding-delta-time-b53bf4781a03)) and `movespeed` variables. It exposes also the `onMove` and `onFire` methods that are called by the `PlayerInput.ts` script.
 
 
 ## The `PlayerInput.ts` script

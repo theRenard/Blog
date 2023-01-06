@@ -22,11 +22,11 @@ image: /images/shoot-em-up.png
 
 ## ⚠️ Disclaimer
 
-I will not describe every step as I assume you have a basic knowledge of Cocos Creator engine and you know how to code, if this is not the case I strongly suggest to start reading the [official documentation](https://docs.cocos.com/creator/manual/en/) and come back here once you have a basic grasp of the engine. I will instead describe the logic behind the code and how the different pieces work togheter. If you want to follow along, you can download the project from [here](https://github.com/theRenard/cocos-creator-laser-defender). The final result is [here](https://tabanella.me/cocos-creator-laser-defender/). All assets are from [Kenney](https://kenney.nl/assets)!
+I will not describe every step as I assume you have a basic knowledge of Cocos Creator engine and you know how to code, if this is not the case I strongly suggest to start reading the [official documentation](https://docs.cocos.com/creator/manual/en/) and come back here once you have a basic grasp of the engine. I will instead describe the logic behind the code and how the different pieces work togheter. If you want to follow along, you can download the project from [github](https://github.com/theRenard/cocos-creator-laser-defender). The final result is [here](https://tabanella.me/cocos-creator-laser-defender/). All assets are from [Kenney](https://kenney.nl/assets)!
 
 Another thing, I'm not a game developer, I'm a web developer, so I'm sure there are better ways to do this, but this is how I did it.
 
-## The `Assets`
+## The `Assets` folder
 
 The assets are organized in a very simple way, there are 9 folders, one for each type of asset. Animation is empty because I didn't use any animation, but I left it there for future use. 
 
@@ -43,9 +43,20 @@ Assets
 └─ Sounds
 ```
 
+There are no surprises here, the `Textures` folder contains all the textures used in the game, the `Fonts` folder contains the font used in the game, the `Music` folder contains the music used in the game, the `Particles` folder contains the particle effects used in the game, the `Prefabs` folder contains the prefabs used in the game, the `Scenes` folder contains the scenes used in the game, the `Scripts` folder contains the scripts used in the game and the `Sounds` folder contains the sounds used in the game.
+
+::: tip 
+I had a lot of issues with fonts so I've finally used a bitmap font, I've used [bmGlyph](https://www.bmglyph.com) app but there are free alternatives.
+:::
+
+::: warning
+Just use `mp3` files for music and sound effects, `ogg` files are not supported in some browsers.
+:::
+
+
 ## The `Scenes`
 
-First thing first, the game is composed of 4 Scenes: `Game`, `GameOver`, `MainMenu` and `Preload`. The `Game` scene is the main scene, where the game is played. The `GameOver` scene is shown when the player loses. The `MainMenu` scene is the first scene that is shown when the game is launched. The `Preload` scene is used to load two [singletons](https://refactoring.guru/design-patterns/singleton), one for managing levels and the other for music. Singletons are used to share data between scenes, Unity does the exact same thing.
+First thing first, the game is composed of 4 Scenes: `Game`, `GameOver`, `MainMenu` and `Preload`. The `Game` scene is the main scene, where the game is played. The `GameOver` scene is shown when the player loses. The `MainMenu` scene is the first scene that is shown when the game is launched. The `Preload` scene is used to load two [singletons](https://refactoring.guru/design-patterns/singleton), one for managing levels and the other for music. Singletons are used to share data between scenes, [Unity](https://gamedevbeginner.com/singletons-in-unity-the-right-way/) does the exact same thing.
 
 ```
 Scenes
@@ -55,7 +66,7 @@ Scenes
 └─ Preload
 ```
 
-## The `Game` Hierarchy
+## The `Game` Scene Hierarchy
 
 The game scene hieararchy is very simple, there's a `Canvas`, a `Camera`, a `Player` node of course, scrolling `Background` / `Foreground` nodes and `Enemies` prefabs that are instantiated that move towards the player. The player can shoot `Lasers` that destroy enemies. The game is over when the player's health is over. The UI is composed of a `ProgressBar` and a `Score`. There is also a `GameManager` node that hosts the script that manages the game as the `EnemySpawner` and the `ScoreKeeper`. We will see how these work in the next sections. You will also notice a parent node for the `Player` which is `ShipBoundaries`. It's used to limit the player's movement inside the canvas and it uses the `Widget` component to stick to the canvas (even if the game is not responsive).
 

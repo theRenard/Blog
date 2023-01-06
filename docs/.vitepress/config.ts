@@ -12,7 +12,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Cocos Creator Basics", link: "/articles/cocos-creator/basics/five-ways-to-move-in-cocos-creator/" },
-      { text: "👾 Shoot 'em up in CC", link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/" },
+      { text: "Shoot 'em up in CC", link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/" },
     ],
     sidebar: [
       {
@@ -25,14 +25,15 @@ export default defineConfig({
         ],
       },
       {
-        text: "👾 Shoot 'em up in CC",
+        text: "Shoot 'em up in CC",
+        collapsible: true,
         items: [
           {
-            text: `Introduction`,
+            text: `👾 Introduction`,
             link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/",
           },
           {
-            text: `The Player Node`,
+            text: `🕹️ The Player Node`,
             link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/the_player_node",
           },
         ],
