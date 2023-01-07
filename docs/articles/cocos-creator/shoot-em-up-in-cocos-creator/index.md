@@ -22,25 +22,37 @@ image: /images/shoot-em-up.png
 
 ## ⚠️ Disclaimer
 
-I will not describe every step as I assume you have a basic knowledge of Cocos Creator engine and you know how to code, if this is not the case I strongly suggest to start reading the [official documentation](https://docs.cocos.com/creator/manual/en/) and come back here once you have a basic grasp of the engine. I will instead describe the logic behind the code and how the different pieces work togheter. If you want to follow along, you can download the project from [github](https://github.com/theRenard/cocos-creator-laser-defender). The final result is [here](https://tabanella.me/cocos-creator-laser-defender/). All assets are from [Kenney](https://kenney.nl/assets)!
+I will not describe every step as I assume you have a basic knowledge of Cocos Creator engine and you know how to code, if this is not the case I strongly suggest to start reading the [official documentation](https://docs.cocos.com/creator/manual/en/) and come back here once you have a basic grasp of the engine. I will instead describe the logic behind the code and how the different pieces work togheter. If you want to follow along, you can download the project from [github](https://github.com/theRenard/cocos-creator-laser-defender). The final result is [here](https://tabanella.me/cocos-creator-laser-defender/). All assets are from [Kenney](https://kenney.nl/assets)! Laser Defender is a game I've created for the [Udemy course](https://www.udemy.com/course/unitycourse/). I've decided to port it to Cocos Creator to see how it works and to compare it with Unity. I've used Cocos Creator 3.6.2.
 
 Another thing, I'm not a game developer, I'm a web developer, so I'm sure there are better ways to do this, but this is how I did it.
 
 ## The `Assets` folder
 
-The assets are organized in a very simple way, there are 9 folders, one for each type of asset. Animation is empty because I didn't use any animation, but I left it there for future use. 
+The assets are organized in a very simple way, there are 9 folders, one for each type of asset. 
 
 ```
 Assets
 ├─ Textures
-├─ Animations
+│  └─ 🖼️
 ├─ Fonts
+│  └─ 🖼️
 ├─ Music
+│  └─ 🎹
 ├─ Particles
+│  └─ 💥
 ├─ Prefabs
+│  ├─ Effects
+│  ├─ Enemies
+│  ├─ Particles
+│  ├─ Paths
+│  ├─ Projectiles
+│  └─ Waves
 ├─ Scenes
+│  └─ 🎬
 ├─ Scripts
+│  └─ xxx.ts
 └─ Sounds
+   └─ 🔔
 ```
 
 There are no surprises here, the `Textures` folder contains all the textures used in the game, the `Fonts` folder contains the font used in the game, the `Music` folder contains the music used in the game, the `Particles` folder contains the particle effects used in the game, the `Prefabs` folder contains the prefabs used in the game, the `Scenes` folder contains the scenes used in the game, the `Scripts` folder contains the scripts used in the game and the `Sounds` folder contains the sounds used in the game.

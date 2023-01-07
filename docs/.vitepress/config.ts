@@ -33,8 +33,12 @@ export default defineConfig({
             link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/",
           },
           {
-            text: `🕹️ The Player Node`,
+            text: `🕹️ The Player`,
             link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/the_player_node",
+          },
+          {
+            text: `⚙️ The Game Manager`,
+            link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/the_game_manager",
           },
         ],
       },
@@ -63,5 +67,14 @@ export default defineConfig({
       "link",
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
     ],
+    [
+      'script',
+      { async: 'true', src: 'https://www.googletagmanager.com/gtag/js?id=G-71Q57ZLBY9' }
+    ],
+    [
+      'script',
+      {},
+      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-71Q57ZLBY9');"
+    ]
   ],
 });
