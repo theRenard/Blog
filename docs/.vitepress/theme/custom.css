@@ -434,3 +434,7 @@
   --vp-badge-danger-border: var(--vp-c-red-dimm-2);
   --vp-badge-danger-text: var(--vp-c-red-light);
 }
+
+.game-iframe {
+  margin: 2rem auto 1rem;
+}

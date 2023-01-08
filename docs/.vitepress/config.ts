@@ -29,16 +29,16 @@ export default defineConfig({
         collapsible: true,
         items: [
           {
-            text: `👾 Introduction`,
+            text: `Introduction`,
             link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/",
           },
           {
             text: `🕹️ The Player`,
-            link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/the_player_node",
+            link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/the_player",
           },
           {
-            text: `⚙️ The Game Manager`,
-            link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/the_game_manager",
+            text: `👾 The Enemies`,
+            link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/the_enemies",
           },
         ],
       },
