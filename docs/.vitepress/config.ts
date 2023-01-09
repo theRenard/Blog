@@ -5,7 +5,7 @@ export default defineConfig({
   lang: "en-US",
   title: "Shall we play a game?",
   description: "Just playing around with javascript",
-
+  appearance: 'dark',
   lastUpdated: true,
 
   themeConfig: {
@@ -29,11 +29,11 @@ export default defineConfig({
         collapsible: true,
         items: [
           {
-            text: `Introduction`,
+            text: `🕹️ The Game`,
             link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/",
           },
           {
-            text: `🕹️ The Player`,
+            text: `🚀 The Player`,
             link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/the_player",
           },
           {

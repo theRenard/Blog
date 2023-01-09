@@ -436,5 +436,14 @@
 }
 
 .game-iframe {
-  margin: 2rem auto 1rem;
+  background: url('/images/sand_waves.png');
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 5rem 0;
+  margin: 1rem 0;
+}
+
+.game-iframe > iframe {
+  margin: auto;
+  /* box-shadow: 10px 10px 1px 10px rgba(0, 0, 0, 0.2); */
 }

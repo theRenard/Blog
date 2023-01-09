@@ -20,8 +20,6 @@ image: /images/shoot-em-up.png
 
 ### Developing a simple game like a Shoot 'Em Up in Cocos Creator is not hard, but if you are new to this engine you may have a hard time understanding how to do it. In this article, I'll try to explain the logic behind the code of a simple Shoot 'Em UP and how the different pieces work togheter.
 
-<iframe class="game-iframe" src="/games/laser-defender/index.html" title="laser defender" width="450" height="800" frameborder="0"></iframe>
-
 ## :warning: Disclaimer
 
 I will not describe the code line by line for two reasons: 
@@ -37,6 +35,15 @@ Another thing, I'm not a game developer, I'm a web developer, so I'm sure there 
 All assets are from [Kenney](https://kenney.nl/assets)! Really great work!
 
 If you want to follow along, you can download the project from [github](https://github.com/theRenard/cocos-creator-laser-defender) and start reading.
+
+
+## The Game
+
+The game is a simple shoot 'em up. The player controls a spaceship that can move left and right and shoot. The enemies move towards the player and the player can shoot them. The game is over when the player's health is over. The player can collect power-ups that increase the player's health and the player's score. You can control with a gamepad or with the keyboard.
+
+<div class="game-iframe">
+   <iframe src="/games/laser-defender/index.html" title="laser defender" width="450" height="800" frameborder="0"></iframe>
+</div>
 
 ## The `Assets` folder
 
@@ -99,7 +106,7 @@ The `Preload` scene is used to instantiate two [singletons](https://refactoring.
 
 ## The `Game` Scene Hierarchy
 
-The game scene hieararchy is very simple, there's a `Canvas`, a `Camera`, a `Player` node of course, scrolling `Background` / `Foreground` nodes and `Enemies` prefabs that are instantiated that move towards the player. The player can shoot `Projectiles` that destroy enemies. The game is over when the player's health is over. The UI is composed of a `ProgressBar` and a `Score`. There is also a `GameManager` node that hosts the script that manages the game as the `EnemySpawner` and the `ScoreKeeper`. We will see how these work in the next sections. You will also notice a parent node for the `Player` which is `ShipBoundaries`. It's used to limit the player's movement inside the canvas and it uses the `Widget` component to stick to the canvas (even if the game is not responsive).
+The game scene hieararchy is very simple, there's a `Canvas`, a `Camera`, a `Player` node of course, scrolling `Background` / `Foreground` nodes and `Enemies` prefabs that are instantiated that move towards the player. The player can shoot `Projectiles` that destroy enemies. The game is over when the player's health is over. The UI is composed of a `ProgressBar` and a `Score`. There is also a `GameManager` node that hosts the script that manages the game as the `EnemyFactory` and the `ScoreKeeper`. We will see how these work in the next sections. You will also notice a parent node for the `Player` which is `ShipBoundaries`. It's used to limit the player's movement inside the canvas and it uses the `Widget` component to stick to the canvas (even if the game is not responsive).
 
 ```
 Game
