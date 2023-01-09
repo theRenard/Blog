@@ -9,7 +9,6 @@ head:
       content: cocos creator
 Updated: 2022-12-16
 lastUpdated: false
-image: /images/shoot-em-up.png
 
 ---
 
@@ -69,12 +68,12 @@ The [`Health.ts`](https://github.com/theRenard/cocos-creator-laser-defender/blob
   - It uses the `boxCollider` of the node to know when the player is hit by something (a projectile or an enemy for the player), when this event occours it calls the `onBeginContact` method to get the `damageDealer` (`DamageDealer.ts`) component from the other collider and subtracts the damage value of the latter from the health property. If the health is less than half it plays the smoke effect, if is less or 0 it destroys the node with `die` method.
   - It handles the smoking, hit and explosion particle effect, it instantiates them (they are prefabs) and plays them when needed.
   - It handles the player health property with some methods, like `getHealth`, `setHealth`, `fillHealth`. 
-  - It calls the camera shake method.
+  - It calls the camera shake method when the player is hit.
   - It adds the score when the node has the `Score` component (the enemies have it).
 
 It is very important to set the collision matrix to avoid the player to collide with his own projectiles, and the same for the enemies. You can set it in Cocos Creator Preferences collision matrix.
 
-![The player](./images/collision_matrix.png)
+![The Collision Matrix](./images/collision_matrix.png)
 
 
 ::: warning
@@ -96,7 +95,3 @@ The [`FireHomingMissile.ts`](https://github.com/theRenard/cocos-creator-laser-de
 ::: tip
 You can find a lot of useful scripts in the Unity communities, you can often rewrite Unity code for Cocos Creator, they have very similar APIs.
 :::
-
-## The `GameManager` node
-
-The `GameManager` node is very important as it's responsible for the spawning of the enemies thanks to the `EnemyFactory` component. It keeps also track of the score thanks to the `scoreKeeper` components that imports the `scoreManager` instance.

@@ -19,14 +19,14 @@ hero:
 features:
 
   - icon: 
-      src: /articles/cocos-creator/basics/five-ways-to-move-in-cocos-creator/images/5-ways-to-move.png
+      src: /images/home/5-ways-to-move.png
       alt: 5 ways to move in Cocos Creator
     title: 5 ways to move in Cocos Creator
     details: One of the first things you'll want to do for your game is probably to move something from point A to point B. There are various ways to move an element in Cocos Creator, some affect the ridigBody and the others on the position of the Node, based on what you want to achieve you might chose one or another, let's see them together.
     link: /articles/cocos-creator/basics/five-ways-to-move-in-cocos-creator/
 
   - icon: 
-      src: /articles/cocos-creator/shoot-em-up-in-cocos-creator/images/shoot-em-up.png
+      src: /images/home/shoot-em-up.png
       alt: Shoot 'em up in Cocos Creator
     title: Shoot 'em up in Cocos Creator
     details: Developing a simple game like a Shoot 'Em Up in Cocos Creator is not hard, but if you are new to this engine you may have a hard time understanding how to do it. In this article, I'll try to explain the logic behind the code of a simple Shoot 'Em UP and how the different pieces work togheter.

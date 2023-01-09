@@ -9,7 +9,6 @@ head:
       content: cocos creator
 Updated: 2022-12-16
 lastUpdated: false
-image: /images/shoot-em-up.png
 # prev: 'Get Started | Markdown'
 
 ---
@@ -102,11 +101,17 @@ You set the game starting scene not in preferences but during the build phase so
 
 The `Preload` scene is used to instantiate two [singletons](https://refactoring.guru/design-patterns/singleton). One is for managing levels and the other to play the game music. Singletons are used to share data between scenes. This tecnique is also used in [Unity](https://gamedevbeginner.com/singletons-in-unity-the-right-way/).
 
-/// add the singletons
+## The Singletons
 
-## The `Game` Scene Hierarchy
+The `LevelManager` singleton is used to manage the the scenes, the `AudioManager` singleton is used to play the game music.
 
-The game scene hieararchy is very simple, there's a `Canvas`, a `Camera`, a `Player` node of course, scrolling `Background` / `Foreground` nodes and `Enemies` prefabs that are instantiated that move towards the player. The player can shoot `Projectiles` that destroy enemies. The game is over when the player's health is over. The UI is composed of a `ProgressBar` and a `Score`. There is also a `GameManager` node that hosts the script that manages the game as the `EnemyFactory` and the `ScoreKeeper`. We will see how these work in the next sections. You will also notice a parent node for the `Player` which is `ShipBoundaries`. It's used to limit the player's movement inside the canvas and it uses the `Widget` component to stick to the canvas (even if the game is not responsive).
+## The `MainMenu` Scene
+
+The `MainMenu` and `GameOver` scenes are very similar. They both have some `Buttons` that are used to navigate between the scenes. Buttons have click events connected to `LevelManager` script that loads the scene. The `GameOver` scene also has a `Label` that shows the player's high score.
+
+## The `Game` Scene
+
+The game scene  is very simple, there's a `Canvas`, a `Camera`, a `Player` node of course, scrolling `Background` / `Foreground` nodes and `Enemies` prefabs that are instantiated that move towards the player. The player can shoot `Projectiles` that destroy enemies. The game is over when the player's health is over. The UI is composed of a `ProgressBar` and a `Score`. There is also a `GameManager` node that hosts the script that manages the game as the `EnemyFactory` and the `ScoreKeeper`. We will see how these work in the next sections. You will also notice a parent node for the `Player` which is `ShipBoundaries`. It's used to limit the player's movement inside the canvas and it uses the `Widget` component to stick to the canvas (even if the game is not responsive).
 
 ```
 Game

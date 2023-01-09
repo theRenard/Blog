@@ -9,7 +9,6 @@ head:
       content: cocos creator
 Updated: 2022-12-16
 lastUpdated: false
-image: /images/shoot-em-up.png
 
 ---
 
@@ -17,17 +16,36 @@ image: /images/shoot-em-up.png
 
 ![The enemy prefab](./images/enemy.png)
 
+## The `GameManager` node
+
+The `GameManager` node is very important as it's responsible for the spawning of the enemies thanks to the `WaveFactory` component. It keeps also track of the score thanks to the `scoreKeeper` components that imports the `scoreManager` instance.
+
+```
+GameManager
+├─ WaveFactory
+│  ├─ Wave Prefab
+│  │  └─ EnemyFactory
+│  │     ├─ ...
+│  │     ├─ Enemy
+│  │     └─ Enemy
+│  ├─ ...
+│  ├─ Wave Prefab
+│  └─ Wave Prefab
+└─ ScoreKeeper
+```
+
+
 ## The `WaveFactory` component
 
-The [`WaveFactory.ts`](https://github.com/theRenard/cocos-creator-laser-defender/blob/master/assets/Scripts/WaveFactory.ts) is responsible for spawning enemies. It can loop through an array of `Waves` of enemies. When the scene starts the script creates a generator that yields all the waves. The wave instantiates the enemies and then after a given ammount of time it instantiate the next one. 
+The [`WaveFactory.ts`](https://github.com/theRenard/cocos-creator-laser-defender/blob/master/assets/Scripts/WaveFactory.ts) is responsible for spawning waves of enemies. It can loop through an array of `Wave` prefabs. When the scene starts the script creates a generator that yields all the waves. The wave instantiates the enemies and then after a given ammount of time it instantiate the next one. 
 
 ## The `Wave`prefab
 
-The `Wave` prefab is a container for the enemies. It contains just one component, `WaveFactory`, the script that instantiates the enemies and that let them follow a given path in the scene. The `WaveFactory` script accepts an array of prefab of enemies and one `Path` prefab (plus some other fancy time paramters).
+The `Wave` prefab is a container for the enemies. It contains just one component, `EnemyFactory`, the script that instantiates the enemies and that let them follow a given path in the scene.
 
 ## The `EnemyFactory` component
 
-The [`EnemyFactory.ts`](https://github.com/theRenard/cocos-creator-laser-defender/blob/master/assets/Scripts/EnemyFactory.ts) script handles the instantiation of the enemies (like `WaveFactory` does for waves, but this time the prefab is an `Enemy` node). It accepts and array of `Enemy` so that you can have different enemies in the same wave. It also accepts a `Path` prefab, so that every wave can have its own path. It's time now to see how the `Enemy` prefab works.
+The [`EnemyFactory.ts`](https://github.com/theRenard/cocos-creator-laser-defender/blob/master/assets/Scripts/EnemyFactory.ts) script handles the instantiation of the enemies (like `WaveFactory` does for waves, but this time the prefab is an `Enemy` node). It accepts and array of `Enemy` prefabs so that you can have different enemies in the same wave. It also accepts a `Path` prefab, so that every wave can have its own path. It's time now to see how the `Enemy` prefab works.
 
 ## The `Enemy` prefab
 
