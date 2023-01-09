@@ -40,10 +40,6 @@ export default defineConfig({
             text: `👾 The Enemies`,
             link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/the_enemies",
           },
-          {
-            text: `📺 The UI`,
-            link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/the_ui",
-          },
         ],
       },
       // { text: 'Articles 2', link: '/articles/2' },

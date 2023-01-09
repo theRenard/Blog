@@ -44,7 +44,7 @@ The game is a simple shoot 'em up. The player controls a spaceship that can move
    <iframe src="/games/laser-defender/index.html" title="laser defender" width="450" height="800" frameborder="0"></iframe>
 </div>
 
-## The `Assets` folder
+## The folder structure
 
 With time you will find that the `Assets` folder will become a mess, so I suggest to organize it in a way that makes sense to you. I've used the following structure:
 

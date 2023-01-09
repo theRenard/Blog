@@ -71,7 +71,11 @@ The velocity is applied to the `RigidBody` of the element. You can use `linearVe
 
 ## Demo
 
-You can find a demo here: [cocos-engine-5-ways-to-move](https://tabanella.me/cocos-engine-5-ways-to-move/).<br>
+You can move with arrow keys and choose if update in loop or not.
+
+<div class="game-iframe">
+   <iframe src="/games/5-ways-to-move/index.html" title="laser defender" width="600" height="400" frameborder="0"></iframe>
+</div>
+
 The repository of the project is here: [https://github.com/theRenard/cocos-engine-5-ways-to-move](https://github.com/theRenard/cocos-engine-5-ways-to-move)
 
-![image](./images/5-ways-to-move_example.gif)

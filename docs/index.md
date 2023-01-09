@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: Shall we play a game?
-  # text: Vite & Vue powered static site generator.
-  tagline: Lorem ipsum...
+  name: 🕹️ Shall we play a game?
+  text: A blog about game development with Cocos Creator.
+  # tagline: A blog about game development with Cocos Creator
   # image:
   #   src: /logo.png
   #   alt: VitePress

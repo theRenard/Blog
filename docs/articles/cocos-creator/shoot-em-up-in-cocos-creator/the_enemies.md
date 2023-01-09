@@ -93,3 +93,7 @@ Path
 Paths can be very complex like the one in the image below that is used for the boss.
 
 ![A complex path](./images/waypoints.gif)
+
+## Wrapping up
+
+So this is it, we have now all the pieces to build a shoot 'em up game. I hope you enjoyed this tutorial and that you learned something new. Stay tuned for the next article!
