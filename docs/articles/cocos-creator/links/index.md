@@ -21,7 +21,7 @@
   - [Coordinate System](https://discuss.cocos2d-x.org/t/understanding-the-principles-of-the-coordinate-system/54108)
 
   - [Example collection](https://github.com/cocos-creator/example-3d): From the use of basic components to the display of rendering effects, this project includes multiple scenarios with different functions and multiple game demo projects for user reference.
-  - [One Step, Two Steps](https://github.com/cocos-creator/tutorial-mind-your-step-3d): This is the [Quick Start](../getting-started/first-game/index.md) document Step-by-step explanation of the game.
+  - [One Step, Two Steps](https://github.com/cocos-creator/tutorial-mind-your-step-3d): This is the document Step-by-step explanation of the game.
   - [Examples of Physics](https://github.com/cocos-creator/example-3d/tree/v3.6/physics-3d): Includes some Physics test cases and examples, such as **Engulfing Black Hole**, **Simple Car**, **Falling ball**, etc. The test cases introduce some basic functions and usage methods, so that you can understand the physical functions in combination with the documentation.
   - [Simple Games](https://github.com/cocos-creator/example-3d/tree/v3.6/simple-games): Users can use this case study to complete some simple and famous games.
   - [Module display collection](https://github.com/cocos/cocos-test-projects): The example project of each function of the engine, which basically covers most of the function modules of the engine. Users can refer to it when using the functions Development in this project.
