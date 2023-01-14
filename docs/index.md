@@ -30,7 +30,7 @@ features:
       alt: Tiled and collisions in Cocos Creator
     title: Tiled and collisions in Cocos Creator
     details: Developing a simple game like a Shoot 'Em Up in Cocos Creator is not hard, but if you are new to this engine you may have a hard time understanding how to do it. In this article, I'll try to explain the logic behind the code of a simple Shoot 'Em UP and how the different pieces work togheter.
-    link: /articles/cocos-creator/tiled-and-collisions/
+    link: /articles/cocos-creator/fundamentals/tiled-and-collisions/
 
   - icon: 
       src: /images/home/shoot-em-up.png
