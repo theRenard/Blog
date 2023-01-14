@@ -11,16 +11,23 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
-      { text: "Cocos Creator Basics", link: "/articles/cocos-creator/basics/five-ways-to-move-in-cocos-creator/" },
-      { text: "Shoot 'em up in CC", link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/" },
+      { text: "Articles", items: [
+        { text: "Cocos Creator Fundamentals", link: "/articles/cocos-creator/fundamentals/five-ways-to-move-in-cocos-creator/" },
+        { text: "Shoot 'em up in CC", link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/" },
+      ]},
+      { text: "Links", link: "/articles/cocos-creator/links/" },
     ],
     sidebar: [
       {
-        text: "Basics",
+        text: "Fundamentals",
         items: [
           {
             text: "🏃‍♂️ 5 ways to move in CC",
-            link: "/articles/cocos-creator/basics/five-ways-to-move-in-cocos-creator/",
+            link: "/articles/cocos-creator/fundamentals/five-ways-to-move-in-cocos-creator/",
+          },
+          {
+            text: "🕹️ Tiled and Collisions in CC",
+            link: "/articles/cocos-creator/fundamentals/tiled-and-collisions/",
           },
         ],
       },
@@ -39,6 +46,16 @@ export default defineConfig({
           {
             text: `👾 The Enemies`,
             link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/the_enemies",
+          },
+        ],
+      },
+      {
+        text: "Resources",
+        collapsible: true,
+        items: [
+          {
+            text: `Links`,
+            link: "/articles/cocos-creator/links/",
           },
         ],
       },
