@@ -437,6 +437,7 @@
 
 .game-iframe {
   background: url('/images/sand_waves.png');
+  background-position: top center;
   background-attachment: fixed;
   background-size: cover;
   padding: 5rem 0;
@@ -445,5 +446,6 @@
 
 .game-iframe > iframe {
   margin: auto;
+  width: 90%;
   /* box-shadow: 10px 10px 1px 10px rgba(0, 0, 0, 0.2); */
 }

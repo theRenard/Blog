@@ -40,6 +40,10 @@ export default defineConfig({
             link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/",
           },
           {
+            text: `📽️ The Scenes`,
+            link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/the_scenes",
+          },
+          {
             text: `🚀 The Player`,
             link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/the_player",
           },

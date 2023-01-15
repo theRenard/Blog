@@ -80,7 +80,7 @@ I've found some glitches with the TiledMap when scrolling, some layers were not 
 # Demo
 
 <div class="game-iframe">
-   <iframe src="/games/tiled-collisions/index.html" title="laser defender" width="600" height="400" frameborder="0"></iframe>
+   <iframe src="/games/tiled-collisions/index.html" title="laser defender" frameborder="0" style="aspect-ratio: 6 / 4"></iframe>
 </div>
 
 [0]: https://github.com/theRenard/cocos-creator-tiled-collider-creator
