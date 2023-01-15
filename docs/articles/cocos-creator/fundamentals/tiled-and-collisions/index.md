@@ -27,6 +27,8 @@ You can find all the code in this [repository][0]
 
 The [`Tiledmap.js`][1] component can be applied on any `TiledLayer` node which are sub-layers of a `TiledMap`. The script uses [`Hull.js`][2] and [`DBSCAN`][3] to generate the collision shapes from the cloud of points of the coordinates of the tiles of that node and apply a `PolygonCollider2D` for every cluster of points.
 
+![Tiled and collisions in Cocos Creator](./images/tiles-to-polygon-collider.png)
+
 The component has four parameters: 
 
 1. **Debug**: if true it will draw the collision shapes in the scene.
