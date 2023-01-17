@@ -32,6 +32,24 @@ export default defineConfig({
         ],
       },
       {
+        text: "Pathfinding 2D in CC",
+        collapsible: true,
+        items: [
+          {
+            text: "🧭 Pathfinding",
+            link: "/articles/cocos-creator/pathfinding-2d/",
+          },
+          {
+            text: "A* Algorithm",
+            link: "/articles/cocos-creator/pathfinding-2d/a-star-algorithm",
+          },
+          {
+            text: "Tiled",
+            link: "/articles/cocos-creator/pathfinding-2d/tiled",
+          },
+        ],
+      },
+      {
         text: "Shoot 'em up in CC",
         collapsible: true,
         items: [

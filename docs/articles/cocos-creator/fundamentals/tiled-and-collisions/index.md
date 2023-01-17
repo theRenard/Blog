@@ -17,19 +17,19 @@ lastUpdated: false
 
 # Tiled and collisions in Cocos Creator
 
-### If you've tried to figure out how to use collisions with Tiled tiledmaps and Cocos Creator probably you had no luck. This is because out of the box this configuration is unsupported. But there is a way to make it work.
+### If you've tried to figure out how to use collisions with Tiled tiled maps and Cocos Creator probably you had no luck. This is because out of the box this configuration is unsupported. But there is a way to make it work.
 
-## TLDR
+## TL;DR
 
 You can find all the code in this [repository][0]
 
-## How it works ?
+## How does it work?
 
 The [`Tiledmap.js`][1] component can be applied on any `TiledLayer` node which are sub-layers of a `TiledMap`. The script uses [`Hull.js`][2] and [`DBSCAN`][3] to generate the collision shapes from the cloud of points of the coordinates of the tiles of that node and apply a `PolygonCollider2D` for every cluster of points.
 
 ![Tiled and collisions in Cocos Creator](./images/tiles-to-polygon-collider.png)
 
-The component has four parameters: 
+The component has four parameters:
 
 1. **Debug**: if true it will draw the collision shapes in the scene.
 2. **Hull Concavity**: the concavity of the hull, the higher the value the more concave the hull will be. You can leave it at 1.0.
@@ -57,7 +57,7 @@ I Cocos Creator I've just added the `TiledMap` and the `RigidBody` components to
 
 ![Example in Cocos](./images/example-cocos.png)
 
-And voilà, as you can see the `PolygonCollider` is generated automatically from the tiles of the layer.
+And voilà, as you can see the `PolygonCollider` was generated automatically from the tiles of the layer.
 
 ![Example in Cocos](./images/example-cocos-2.png)
 
