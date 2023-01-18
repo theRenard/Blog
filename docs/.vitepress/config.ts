@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   base: "/",
   lang: "en-US",
-  title: "Shall we play a game?",
+  title: "Shall we play a game ?",
   description: "Just playing around with Cocos Creator",
   appearance: 'dark',
   lastUpdated: true,
