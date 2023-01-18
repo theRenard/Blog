@@ -17,7 +17,7 @@ image: /images/5-ways-to-move.png
 
 # Five ways to move an element in Cocos Creator
 
-### One of the first things you'll want to do for your game is probably to move something from point _A_ to point _B_. There are various ways to move an element in Cocos Creator, some affect the `ridigBody` and the others on the position of the `Node`, based on what you want to achieve you might chose one or another, let's see them together.
+### One of the first things you'll want to do for your game is probably to move something from point _A_ to point _B_. There are various ways to move an element in Cocos Creator, some affect the `ridigBody` and the others on the position of the `Node`, based on what you want to achieve you might choose one or another, let's see them together.
 
 ## 1. Position
 
@@ -71,7 +71,7 @@ The velocity is applied to the `RigidBody` of the element. You can use `linearVe
 
 ## Demo
 
-You can move with arrow keys and choose if update in loop or not.
+You can move with arrow keys and choose if update in a loop or not.
 
 <div class="game-iframe">
    <iframe src="/games/5-ways-to-move/index.html" title="laser defender" frameborder="0" style="aspect-ratio: 6 / 4"></iframe>

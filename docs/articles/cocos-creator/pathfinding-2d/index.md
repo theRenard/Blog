@@ -33,7 +33,7 @@ We will use [Pathfinding.js][1] to implement the pathfinding system. Pathfinding
 You can use the arrow keys to move.
 
 <div class="game-iframe">
-   <iframe src="/games/path-finding/index.html" title="path finding" frameborder="0" style="aspect-ratio: 1 / 1"></iframe>
+   <iframe src="/games/path-finding/index.html" title="pathfinding" frameborder="0" style="aspect-ratio: 1 / 1"></iframe>
 </div>
 
 

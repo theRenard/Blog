@@ -17,7 +17,7 @@ lastUpdated: false
 
 # Tiled and collisions in Cocos Creator
 
-### If you've tried to figure out how to use collisions with Tiled tiled maps and Cocos Creator probably you had no luck. This is because out of the box this configuration is unsupported. But there is a way to make it work.
+### If you've tried to figure out how to use collisions with Tiled tiled maps and Cocos Creator probably you had no luck. This is because out of the box, this configuration is unsupported. But there is a way to make it work.
 
 ## TL;DR
 
@@ -66,7 +66,7 @@ I've found some glitches with the TiledMap when scrolling, some layers were not 
 :::
 
 ::: warning
-`TiledMap` can't really work on _borders_, for instance if you need to have a frame-like borders you need to create 4 different layers and apply the `TiledMap` component to each of them. If not Hull.js will consider them as a whole and will generate a single collision shape for the whole border.
+`TiledMap` can't work on _borders, for instance, if you need to have a frame-like border you need to create 4 different layers and apply the `TiledMap` component to each of them. If not Hull.js will consider them as a whole and will generate a single collision shape for the whole border.
 
 ```
   ┌─────────┐         ──────────
