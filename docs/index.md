@@ -4,7 +4,7 @@ layout: home
 hero:
   name: 🕹️ Shall we play a game?
   text: A blog about game development with Cocos Creator
-  tagline: This is my ride to learn how to make games, I hope you'll enjoy it.
+  tagline: Hi! This is Daniele, here is my ride to learn how to make games, I hope you'll enjoy it.
   # image:
   #   src: /logo.png
   #   alt: VitePress

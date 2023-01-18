@@ -3,8 +3,8 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   base: "/",
   lang: "en-US",
-  title: "Shall we play a game?",
-  description: "Just playing around with javascript",
+  // title: "Shall we play a game?",
+  description: "Just playing around with Cocos Creator",
   appearance: 'dark',
   lastUpdated: true,
 
@@ -115,6 +115,17 @@ export default defineConfig({
   },
   head: [
     ["meta", { name: "theme-color", content: "#d648d5" }],
+    ["meta", { name: "twitter:card", content:"summary_large_image" } ],
+    ["meta", { property: "twitter:domain", content:"blog.tabanella.me" } ],
+    ["meta", { property: "twitter:url", content:"https://blog.tabanella.me" } ],
+    ["meta", { name: "twitter:title", content:"Shall we play a game? | Shall we play a game?" } ],
+    ["meta", { name: "twitter:description", content:"Just playing around with javascript" } ],
+    ["meta", { name: "twitter:image", content:"/images/social.png" } ],
+    ["meta", { property:"og:url", content:"https://blog.tabanella.me" }],
+    ["meta", { property:"og:type", content:"website" }],
+    ["meta", { property:"og:title", content:"Shall we play a game? | Shall we play a game?" }],
+    ["meta", { property:"og:description", content:"Just playing around with javascript" }],
+    ["meta", { property:"og:image", content:"/images/social.png" }],
     [
       "link",
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
@@ -130,3 +141,7 @@ export default defineConfig({
     ]
   ],
 });
+
+
+
+
