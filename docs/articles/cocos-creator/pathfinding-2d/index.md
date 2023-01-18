@@ -28,6 +28,11 @@ In this picture, you can see the pathfinding system in action. The green square 
 
 We will use [Pathfinding.js][1] to implement the pathfinding system. Pathfinding.js is a JavaScript library that implements the A* algorithm (and many others). It is very easy to use and well-documented. 
 
+## TL;DR
+
+You can find all the code in this [repository][0]
+
+
 ## Demo
 
 You can use the arrow keys to move.
@@ -37,4 +42,5 @@ You can use the arrow keys to move.
 </div>
 
 
+[0]: https://github.com/theRenard/cocos-creator-2d-pathfind
 [1]: https://github.com/qiao/PathFinding.js
