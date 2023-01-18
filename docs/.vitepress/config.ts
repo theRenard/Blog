@@ -10,11 +10,24 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: "Home", link: "/" },
       { text: "Articles", items: [
-        { text: "Cocos Creator Fundamentals", link: "/articles/cocos-creator/fundamentals/five-ways-to-move-in-cocos-creator/" },
-        { text: "Shoot 'em up in CC", link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/" },
-      ]},
+        {
+          text: "🏃‍♂️ 5 ways to move in CC",
+          link: "/articles/cocos-creator/fundamentals/five-ways-to-move-in-cocos-creator/",
+        },
+        {
+          text: "🕹️ Tiled and Collisions in CC",
+          link: "/articles/cocos-creator/fundamentals/tiled-and-collisions/",
+        },
+        {
+          text: "🧭 Pathfinding",
+          link: "/articles/cocos-creator/pathfinding-2d/",
+        },
+        {
+          text: `🕹️ Shoot 'em Up`,
+          link: "/articles/cocos-creator/shoot-em-up-in-cocos-creator/",
+        },
+    ]},
       { text: "Links", link: "/articles/cocos-creator/links/" },
     ],
     sidebar: [
@@ -40,11 +53,11 @@ export default defineConfig({
             link: "/articles/cocos-creator/pathfinding-2d/",
           },
           {
-            text: "A* Algorithm",
+            text: "👾 A* Algorithm",
             link: "/articles/cocos-creator/pathfinding-2d/a-star-algorithm",
           },
           {
-            text: "Tiled",
+            text: "🧱 Tiled",
             link: "/articles/cocos-creator/pathfinding-2d/tiled",
           },
         ],

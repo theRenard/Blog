@@ -1,5 +1,7 @@
 # Cocos Links
 
+### A collection of links to Cocos resources
+
 ## Cocos Documentation
 
  - [User Manual](https://docs.cocos.com/creator/manual/en/)
