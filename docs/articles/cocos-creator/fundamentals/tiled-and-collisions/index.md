@@ -1,6 +1,5 @@
 ---
-title: Cocos Creator
-titleTemplate: Tiled and collisions in Cocos Creator
+title: Tiled and collisions in Cocos Creator
 description: Tiled and collisions in Cocos Creator
 Author: Daniele Tabanella
 head:

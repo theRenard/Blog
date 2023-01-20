@@ -1,6 +1,5 @@
 ---
-title: Cocos Creator
-titleTemplate: Five ways to move an element in Cocos Creator
+title: Five ways to move an element in Cocos Creator
 description: Five ways to move an element in Cocos Creator
 Author: Daniele Tabanella
 head:

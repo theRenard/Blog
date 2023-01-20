@@ -1,7 +1,7 @@
 ---
-title: Cocos Creator
-titleTemplate: Shoot 'em up in Cocos Creator
-description: Shoot 'em up in Cocos Creator
+title: Shoot 'em up in Cocos Creator
+titleTemplate: The Game
+description: Shoot 'em up in Cocos Creator | The Game
 Author: Daniele Tabanella
 head:
   - - meta

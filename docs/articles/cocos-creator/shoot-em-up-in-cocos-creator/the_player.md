@@ -1,7 +1,7 @@
 ---
-title: Cocos Creator
-titleTemplate: Shoot 'em up in Cocos Creator the Player Node
-description: Shoot 'em up in Cocos Creator the Player Node
+title: Shoot 'em up in Cocos Creator
+titleTemplate: The Player
+description: Shoot 'em up in Cocos Creator | The Player
 Author: Daniele Tabanella
 head:
   - - meta

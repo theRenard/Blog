@@ -1,7 +1,7 @@
 ---
-title: Cocos Creator
-titleTemplate: Pathfinding 2D in Cocos Creator
-description: Pathfinding 2D in Cocos Creator
+title: Pathfinding 2D in Cocos Creator
+titleTemplate: Tiled
+description: Pathfinding 2D in Cocos Creator | Tiled
 Author: Daniele Tabanella
 head:
   - - meta
