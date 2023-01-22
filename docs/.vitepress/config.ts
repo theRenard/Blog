@@ -136,12 +136,12 @@ export default defineConfig({
     ],
     [
       'script',
-      { async: 'true', src: 'https://www.googletagmanager.com/gtag/js?id=G-71Q57ZLBY9' }
+      { async: 'true', src: 'https://www.googletagmanager.com/gtag/js?id=G-X8Y4V0KCB3' }
     ],
     [
       'script',
       {},
-      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-71Q57ZLBY9');"
+      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-X8Y4V0KCB3');"
     ]
   ],
 });
