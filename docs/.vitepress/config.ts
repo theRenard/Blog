@@ -124,12 +124,12 @@ export default defineConfig({
     ["meta", { property: "twitter:url", content: "https://blog.tabanella.me" }],
     ["meta", { name: "twitter:title", content: "Shall we play a game?" }],
     ["meta", { name: "twitter:description", content: "Just playing around with javascript" }],
-    ["meta", { name: "twitter:image", content: "https://blog.tabanella.me/images/social.png" }],
+    ["meta", { name: "twitter:image", content: "https://blog.tabanella.me/images/social.png?v=1" }],
     ["meta", { property: "og:url", content: "https://blog.tabanella.me" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:title", content: "Shall we play a game?" }],
     ["meta", { property: "og:description", content: "Just playing around with Cocos Creator" }],
-    ["meta", { property: "og:image", content: "https://blog.tabanella.me/images/social.png" }],
+    ["meta", { property: "og:image", content: "https://blog.tabanella.me/images/social.png?v=1" }],
     [
       "link",
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
@@ -143,18 +143,18 @@ export default defineConfig({
       {},
       "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-X8Y4V0KCB3');"
     ],
-    // <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    // <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    // <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    // <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=1">
+    // <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=1">
+    // <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=1">
     // <link rel="manifest" href="/site.webmanifest">
     // <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     // <meta name="msapplication-TileColor" content="#da532c">
     // <meta name="theme-color" content="#ffffff">
-    ["link", { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png" }],
-    ["link", { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png" }],
-    ["link", { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon-16x16.png" }],
+    ["link", { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png?v=1" }],
+    ["link", { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png?v=1" }],
+    ["link", { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon-16x16.png?v=1" }],
     ["link", { rel: "manifest", href: "/site.webmanifest" }],
-    ["link", { rel: "mask-icon", href: "/safari-pinned-tab.svg", color: "#5bbad5" }],
+    ["link", { rel: "mask-icon", href: "/safari-pinned-tab.svg?v=1", color: "#da532c" }],
     ["meta", { name: "msapplication-TileColor", content: "#da532c" }],
 
   ],
