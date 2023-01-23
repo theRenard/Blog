@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  # name: Hi!
-  text: I'm Daniele, JS developer and curious about game development.
-  tagline: Here is my ride to learn how to make games, I hope you'll enjoy it.
+  name: Hi!
+  text: I'm Daniele!
+  tagline: One year ago I decided to learn game development with Cocos Creator, here is my ride to learn how to make games, I hope you'll enjoy it.
   image:
     src: /images/avatar-with-glasses.gif
     alt: Daniele

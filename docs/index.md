@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: 🕹️ Shall we play a game?
+  name: 🌲 Renard 🦊 Land 🌲
   text: A blog about game development with Cocos Creator
   tagline: Hi! This is Daniele, here is my ride to learn how to make games, I hope you'll enjoy it.
   # image:

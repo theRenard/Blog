@@ -3,8 +3,8 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   base: "/",
   lang: "en-US",
-  title: "Renard Land 🦊🌲",
-  titleTemplate: "#gamedev with Cocos Creator",
+  title: "🌲 Renard Land 🌲",
+  titleTemplate: "Gamedev with Cocos Creator",
   description: "A blog about gamedev with Cocos Creator",
   appearance: 'dark',
   lastUpdated: true,
@@ -31,7 +31,7 @@ export default defineConfig({
           },
         ]
       },
-      { text: "About Me", link: "/pages/about-me" },
+      { text: "About Me 🦊", link: "/pages/about-me" },
       { text: "Links", link: "/articles/cocos-creator/links/" },
     ],
     sidebar: [
