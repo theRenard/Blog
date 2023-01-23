@@ -142,6 +142,11 @@ export default defineConfig({
       'script',
       {},
       "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-X8Y4V0KCB3');"
+    ],
+    // favicon
+    [
+      "link",
+      { rel: "icon", type: "image/png", href: "/favicon.png" },
     ]
   ],
 });
