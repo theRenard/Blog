@@ -3,8 +3,8 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   base: "/",
   lang: "en-US",
-  title: "Shall we play a game?",
-  titleTemplate: "A blog about gamedev",
+  title: "Renard Land 🦊🌲",
+  titleTemplate: "#gamedev with Cocos Creator",
   description: "A blog about gamedev with Cocos Creator",
   appearance: 'dark',
   lastUpdated: true,
@@ -143,11 +143,20 @@ export default defineConfig({
       {},
       "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-X8Y4V0KCB3');"
     ],
-    // favicon
-    [
-      "link",
-      { rel: "icon", type: "image/png", href: "/favicon.png" },
-    ]
+    // <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    // <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    // <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    // <link rel="manifest" href="/site.webmanifest">
+    // <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    // <meta name="msapplication-TileColor" content="#da532c">
+    // <meta name="theme-color" content="#ffffff">
+    ["link", { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png" }],
+    ["link", { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png" }],
+    ["link", { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon-16x16.png" }],
+    ["link", { rel: "manifest", href: "/site.webmanifest" }],
+    ["link", { rel: "mask-icon", href: "/safari-pinned-tab.svg", color: "#5bbad5" }],
+    ["meta", { name: "msapplication-TileColor", content: "#da532c" }],
+
   ],
 });
 
