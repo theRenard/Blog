@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://renard.land/</loc>
+  <lastmod>2023-01-23T23:08:01+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://renard.land/articles/cocos-creator/fundamentals/five-ways-to-move-in-cocos-creator/</loc>
+  <lastmod>2023-01-23T23:08:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://renard.land/articles/cocos-creator/fundamentals/tiled-and-collisions/</loc>
+  <lastmod>2023-01-23T23:08:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://renard.land/articles/cocos-creator/pathfinding-2d/</loc>
+  <lastmod>2023-01-23T23:08:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://renard.land/articles/cocos-creator/shoot-em-up-in-cocos-creator/</loc>
+  <lastmod>2023-01-23T23:08:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://renard.land/pages/about-me.html</loc>
+  <lastmod>2023-01-23T23:08:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://renard.land/articles/cocos-creator/links/</loc>
+  <lastmod>2023-01-23T23:08:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://renard.land/articles/cocos-creator/pathfinding-2d/a-star-algorithm.html</loc>
+  <lastmod>2023-01-23T23:08:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://renard.land/articles/cocos-creator/pathfinding-2d/tiled.html</loc>
+  <lastmod>2023-01-23T23:08:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://renard.land/articles/cocos-creator/shoot-em-up-in-cocos-creator/the_scenes.html</loc>
+  <lastmod>2023-01-23T23:08:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://renard.land/articles/cocos-creator/shoot-em-up-in-cocos-creator/the_player.html</loc>
+  <lastmod>2023-01-23T23:08:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://renard.land/articles/cocos-creator/shoot-em-up-in-cocos-creator/the_enemies.html</loc>
+  <lastmod>2023-01-23T23:08:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://renard.land/games/5-ways-to-move/index.html</loc>
+  <lastmod>2023-01-23T23:08:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://renard.land/games/tiled-collisions/index.html</loc>
+  <lastmod>2023-01-23T23:08:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://renard.land/games/path-finding/index.html</loc>
+  <lastmod>2023-01-23T23:08:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://renard.land/games/laser-defender/index.html</loc>
+  <lastmod>2023-01-23T23:08:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
