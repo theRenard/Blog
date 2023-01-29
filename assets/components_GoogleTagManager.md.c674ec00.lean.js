@@ -1,0 +1,2 @@
+import{_ as t,c as a,o,b as e}from"./app.e409cfbb.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"components/GoogleTagManager.md","lastUpdated":1674980132000}'),n={name:"components/GoogleTagManager.md"},s=e("p",null,[e("noscript",null,`<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PGDNZR"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe>`)],-1),r=[s];function c(i,l,d,p,g,m){return o(),a("div",null,r)}const f=t(n,[["render",c]]);export{h as __pageData,f as default};
