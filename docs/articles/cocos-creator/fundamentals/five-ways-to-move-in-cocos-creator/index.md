@@ -12,6 +12,8 @@ image: /images/5-ways-to-move.png
 
 ---
 
+<!--@include: ../../../../components/GoogleTagManager.md-->
+
 ![5 ways to move in cocos creator](./images/5-ways-to-move.png)
 
 # Five ways to move an element in Cocos Creator

@@ -143,6 +143,12 @@ export default defineConfig({
       {},
       "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-X8Y4V0KCB3');"
     ],
+    // tag manager
+    [
+      'script',
+      {},
+      "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-5PGDNZR');"
+    ],
     // <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=1">
     // <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=1">
     // <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=1">
